@@ -1,0 +1,175 @@
+body {
+    background-color: #A49393;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#main-section {
+    padding-bottom: 20px;
+}
+
+h1 {
+    margin: 0px;
+    text-align: center;
+    padding-top: 23px;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-size: 47px;
+    color: #67595E;
+}
+
+header {
+    /* background-color: black; */
+}
+
+nav {
+    background-color: green;
+   /* height: 50px; */
+}
+
+main {
+    min-height: calc(100vh - 125px);
+    background-color: #A49393;
+}
+
+.nav-bar div{
+    overflow: hidden;
+    background-color: #67595E;
+    height: 50px;
+}
+
+a {
+    text-decoration: none;
+    /* font-family: 'Courier New', Courier, monospace; */
+}
+
+.nav-bar-links a:hover {
+    color: #EED6D3;
+}
+
+.nav-bar-links a {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 30px;
+    color: #A49393;    
+    
+}
+
+#logo {    
+    float: left;
+    height: 45px;
+    margin-top: 2px;
+    margin-left: 12px;
+    margin-right: 7px;
+}
+
+#logo-text {
+    font-size: 18px;
+    color: #A49393;
+    margin-top: 9px;
+    /* font-family: 'Courier New', Courier, monospace; */
+}
+
+.logo-container {
+    width: 200px;
+    height: 100%;
+    float: left;
+}
+
+.recipe-heading h1{
+    color: #67595E;
+    text-align: center;
+}
+
+.boxes{
+    display: inline-block;
+    height: 100%;
+    margin: 15px;
+}
+.main-box {    
+    padding-bottom: 20px;
+    display: flex;
+    justify-content:  space-between;
+    
+}
+
+.box-left {
+    text-align: center;
+    width: 600px;   
+    /* height: 464px; */
+}
+
+.box-left img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 12px;
+}
+
+.box-right {
+    width: 746px;
+}
+
+ 
+.box-right div {
+    color :#67595E;
+}
+
+.box-right  ul{
+    column-count: 2;
+}
+
+.recipe-box {
+    display: inline-block;
+    border-radius: 2px;
+}
+
+.recipe-box-small {
+    margin: 15px 40px;
+    height: 361px;
+    width: 361px;
+}
+
+.recipe-box a {
+    font-size: 23px;
+    text-align: center;
+    /* font-family: 'Courier New', Courier, monospace; */
+    color:#67595E;
+
+}
+
+.recipe-box a:hover {
+    color: #EED6D3;
+}
+
+.recipe-box img {
+    width: 100%;
+    border-radius: 25px;
+}
+/*
+.recipe-box p {
+    font-size: 23px;
+    font-family: 'Courier New', Courier, monospace;
+    color:#67595E;
+
+} */
+
+.recipe-title {
+    background-color: red;
+}
+
+.recipe-title h1 {
+    color: #67595E;
+    font-size: 50px;
+}
+
+footer {
+    background-color: #67595E;
+    height: 75px;
+    text-align: center;
+    /* font-family: 'Courier New', Courier, monospace; */
+}
+
+footer p {
+    display: inline-block;
+    margin-top: 38px;
+    color: #A49393;
+}
